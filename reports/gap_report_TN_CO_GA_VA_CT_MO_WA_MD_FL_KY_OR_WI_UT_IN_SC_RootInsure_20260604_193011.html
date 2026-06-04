@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gap Analysis — TN, CO, GA, VA, CT, MO, WA, MD, FL, KY, OR, WI, UT, IN, SC | Root Insurance</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 32px;
+    color: #1a1a1a;
+  }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+    padding: 28px 32px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+  }
+  .card-sub {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 24px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  thead tr { border-bottom: 1.5px solid #e0e0e0; }
+  thead th {
+    text-align: left;
+    padding: 6px 12px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    white-space: nowrap;
+  }
+  tbody tr { border-bottom: 1px solid #f0f0f0; }
+  tbody tr:last-child { border-bottom: none; }
+  td { padding: 10px 12px; vertical-align: middle; }
+  .field-name { font-weight: 500; color: #1a1a1a; width: 180px; white-space: nowrap; }
+  .ui-mapped  { width: 90px; text-align: center; white-space: nowrap; font-size: 13px; font-weight: 500; }
+  .ok  { color: #3a7d3a; }
+  .bad { color: #c0392b; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    display: inline-block;
+    font-size: 11.5px;
+    font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+    background: #fdf0ee;
+    border: 1px solid #f0b8b0;
+    border-radius: 5px;
+    padding: 2px 8px;
+    color: #c0392b;
+    white-space: nowrap;
+  }
+  .summary {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1.5px solid #e0e0e0;
+    display: flex;
+    gap: 28px;
+    font-size: 13px;
+    color: #555;
+  }
+  .summary span { font-weight: 600; color: #1a1a1a; }
+  .note { margin-top: 18px; font-size: 11.5px; color: #888; line-height: 1.6; }
+  /* ── Tab chrome ── */
+  .tab-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0;
+  }
+  .tab-btn {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 8px 16px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    cursor: pointer;
+    margin-bottom: -2px;
+    border-radius: 4px 4px 0 0;
+    transition: color 0.15s;
+  }
+  .tab-btn:hover  { color: #1a1a1a; background: #f9f9f9; }
+  .tab-btn.active { color: #1a1a1a; border-bottom-color: #1a1a1a; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="card-title" style="margin-bottom:16px">
+    Root Insurance | Personal Auto — Gap Analysis | RootInsure
+    <span style="font-weight:400;color:#888;font-size:13px;margin-left:8px">
+      TN, CO, GA, VA, CT, MO, WA, MD, FL, KY, OR, WI, UT, IN, SC &nbsp;·&nbsp; Generated: 2026-06-04 19:30
+    </span>
+  </div>
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="showTab('TN')">TN <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">6</span></button>
+<button class="tab-btn" onclick="showTab('CO')">CO <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">22</span></button>
+<button class="tab-btn" onclick="showTab('GA')">GA <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">40</span></button>
+<button class="tab-btn" onclick="showTab('VA')">VA <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">38</span></button>
+<button class="tab-btn" onclick="showTab('CT')">CT <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">38</span></button>
+<button class="tab-btn" onclick="showTab('MO')">MO <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">19</span></button>
+<button class="tab-btn" onclick="showTab('WA')">WA <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">48</span></button>
+<button class="tab-btn" onclick="showTab('MD')">MD <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">35</span></button>
+<button class="tab-btn" onclick="showTab('FL')">FL <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">31</span></button>
+<button class="tab-btn" onclick="showTab('KY')">KY <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">33</span></button>
+<button class="tab-btn" onclick="showTab('OR')">OR <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">41</span></button>
+<button class="tab-btn" onclick="showTab('WI')">WI <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">21</span></button>
+<button class="tab-btn" onclick="showTab('UT')">UT <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">14</span></button>
+<button class="tab-btn" onclick="showTab('IN')">IN <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">35</span></button>
+<button class="tab-btn" onclick="showTab('SC')">SC <span style="background:#c0392b;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700;">21</span></button>
+
+  </div>
+  <div id="tab-TN" class="tab-panel" style="display:block">
+  <div class="card-title">Root Insurance | Personal Auto | TN State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>TN</em> in BoltCondition (any row), it must also have <em>TN</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in TN UI but missing TN carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">6/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Reject</span> <span class="chip">cov100to100</span> <span class="chip">cov100to300</span> <span class="chip">cov250to500</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>83</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>77</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">6</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>TN</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>TN</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-CO" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | CO State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>CO</em> in BoltCondition (any row), it must also have <em>CO</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in CO UI but missing CO carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">10/6 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">10/6 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">7/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov15000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">12/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov25to50</span> <span class="chip">cov50to50</span> <span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>78</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>56</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">22</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>CO</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>CO</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-GA" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | GA State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>GA</em> in BoltCondition (any row), it must also have <em>GA</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in GA UI but missing GA carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov500</span> <span class="chip">cov2000</span> <span class="chip">cov2500</span> <span class="chip">cov15000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">6/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span> <span class="chip">cov100to3000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">12/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov50to50</span> <span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UMOPTIONList</td>
+            <td class="ui-mapped"><span class="bad">2/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">AddOn</span> <span class="chip">Reduced</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UMPD</td>
+            <td class="ui-mapped"><span class="bad">13/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Reject</span> <span class="chip">cov25_250</span> <span class="chip">cov25_500</span> <span class="chip">cov25_1000</span> <span class="chip">cov50_250</span> <span class="chip">cov50_500</span> <span class="chip">cov50_1000</span> <span class="chip">cov75_250</span> <span class="chip">cov75_500</span> <span class="chip">cov75_1000</span> <span class="chip">cov100_250</span> <span class="chip">cov100_500</span> <span class="chip">cov100_1000</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>88</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>48</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">40</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>GA</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>GA</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-VA" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | VA State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>VA</em> in BoltCondition (any row), it must also have <em>VA</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in VA UI but missing VA carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov500</span> <span class="chip">cov2500</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TowingAndLabor</td>
+            <td class="ui-mapped"><span class="bad">7/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">No coverage</span> <span class="chip">TwentyFive</span> <span class="chip">Fifty</span> <span class="chip">SeventyFive</span> <span class="chip">Hundred</span> <span class="chip">TwoHundred</span> <span class="chip">Unlimited</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">No coverage</span> <span class="chip">cov20to600</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">5/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov100to300</span> <span class="chip">cov250to500</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">10/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov60to120</span> <span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UMPD</td>
+            <td class="ui-mapped"><span class="bad">7/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov250000</span> <span class="chip">cov300000</span> <span class="chip">cov500000</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>80</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>42</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">38</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>VA</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>VA</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-CT" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | CT State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>CT</em> in BoltCondition (any row), it must also have <em>CT</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in CT UI but missing CT carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov500</span> <span class="chip">cov2500</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TowingAndLabor</td>
+            <td class="ui-mapped"><span class="bad">7/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">No coverage</span> <span class="chip">TwentyFive</span> <span class="chip">Fifty</span> <span class="chip">SeventyFive</span> <span class="chip">Hundred</span> <span class="chip">TwoHundred</span> <span class="chip">Unlimited</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">6/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov15to450</span> <span class="chip">cov20to600</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">17/6 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov50to50</span> <span class="chip">cov100to100</span> <span class="chip">cov200to600</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov500to1000</span> <span class="chip">cov1000to1000</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">WageLossList</td>
+            <td class="ui-mapped"><span class="bad">4/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov200</span> <span class="chip">cov300</span> <span class="chip">cov400</span> <span class="chip">cov500</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>84</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>46</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">38</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>CT</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>CT</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-MO" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | MO State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>MO</em> in BoltCondition (any row), it must also have <em>MO</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in MO UI but missing MO carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/6 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov2500</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">11/10 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">13/10 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>84</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>65</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">19</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>MO</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>MO</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-WA" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | WA State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>WA</em> in BoltCondition (any row), it must also have <em>WA</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in WA UI but missing WA carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">None</span> <span class="chip">cov500</span> <span class="chip">cov1000</span> <span class="chip">cov2000</span> <span class="chip">cov2500</span> <span class="chip">cov5000</span> <span class="chip">cov10000</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TowingAndLabor</td>
+            <td class="ui-mapped"><span class="bad">7/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">No coverage</span> <span class="chip">TwentyFive</span> <span class="chip">Fifty</span> <span class="chip">SeventyFive</span> <span class="chip">Hundred</span> <span class="chip">TwoHundred</span> <span class="chip">Unlimited</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">5/2 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">12/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov25to50</span> <span class="chip">cov50to50</span> <span class="chip">cov50to100</span> <span class="chip">cov100to100</span> <span class="chip">cov100to300</span> <span class="chip">cov250to500</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UMPD</td>
+            <td class="ui-mapped"><span class="bad">5/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">NoCoverage</span> <span class="chip">cov10000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>92</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>44</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">48</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>WA</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>WA</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-MD" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | MD State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>MD</em> in BoltCondition (any row), it must also have <em>MD</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in MD UI but missing MD carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/6 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">None</span> <span class="chip">cov500</span> <span class="chip">cov1000</span> <span class="chip">cov2000</span> <span class="chip">cov2500</span> <span class="chip">cov5000</span> <span class="chip">cov10000</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">5/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov100to300</span> <span class="chip">cov250to500</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">10/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov30to60</span> <span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UMPD</td>
+            <td class="ui-mapped"><span class="bad">7/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov250000</span> <span class="chip">cov300000</span> <span class="chip">cov500000</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>87</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>52</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">35</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>MD</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>MD</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-FL" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | FL State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>FL</em> in BoltCondition (any row), it must also have <em>FL</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in FL UI but missing FL carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">None</span> <span class="chip">cov500</span> <span class="chip">cov1000</span> <span class="chip">cov2000</span> <span class="chip">cov2500</span> <span class="chip">cov5000</span> <span class="chip">cov10000</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">14/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov10to20</span> <span class="chip">cov15to30</span> <span class="chip">cov50to50</span> <span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>88</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>57</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">31</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>FL</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>FL</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-KY" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | KY State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>KY</em> in BoltCondition (any row), it must also have <em>KY</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in KY UI but missing KY carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">None</span> <span class="chip">cov500</span> <span class="chip">cov1000</span> <span class="chip">cov2000</span> <span class="chip">cov2500</span> <span class="chip">cov5000</span> <span class="chip">cov10000</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">PIPDeductibleList</td>
+            <td class="ui-mapped"><span class="bad">4/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">None</span> <span class="chip">cov250</span> <span class="chip">cov500</span> <span class="chip">cov1000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TrotlimitationList</td>
+            <td class="ui-mapped"><span class="bad">3/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">TortLimitationNotRejected</span> <span class="chip">RejectedByAllFamilyMembers</span> <span class="chip">RejectedBySomeFamilyMembers</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">13/11 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov50to50</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">13/10 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>95</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>62</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">33</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>KY</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>KY</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-OR" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | OR State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>OR</em> in BoltCondition (any row), it must also have <em>OR</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in OR UI but missing OR carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">None</span> <span class="chip">cov500</span> <span class="chip">cov1000</span> <span class="chip">cov2000</span> <span class="chip">cov2500</span> <span class="chip">cov5000</span> <span class="chip">cov10000</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">PIPDeductibleList</td>
+            <td class="ui-mapped"><span class="bad">5/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov0</span> <span class="chip">cov100_Insured</span> <span class="chip">cov250_Insured</span> <span class="chip">cov100_Insured_And_Relatives</span> <span class="chip">cov250_Insured_And_Relatives</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">PIPList</td>
+            <td class="ui-mapped"><span class="bad">4/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov15000_BASIC</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">5/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov100to300</span> <span class="chip">cov250to500</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">12/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov50to50</span> <span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UMPD</td>
+            <td class="ui-mapped"><span class="bad">5/4 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100000</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>92</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>51</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">41</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>OR</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>OR</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-WI" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | WI State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>WI</em> in BoltCondition (any row), it must also have <em>WI</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in WI UI but missing WI carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">10/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">OneThousandFiveHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">10/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">OneThousandFiveHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">10/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov2500</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">12/11 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">12/9 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>86</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>65</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">21</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>WI</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>WI</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-UT" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | UT State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>UT</em> in BoltCondition (any row), it must also have <em>UT</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in UT UI but missing UT carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">10/9 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">11/8 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>73</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>59</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">14</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>UT</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>UT</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-IN" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | IN State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>IN</em> in BoltCondition (any row), it must also have <em>IN</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in IN UI but missing IN carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/7 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov2500</span> <span class="chip">cov15000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">13/0 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Reject</span> <span class="chip">cov50to50</span> <span class="chip">cov50to100</span> <span class="chip">cov100to100</span> <span class="chip">cov100to300</span> <span class="chip">cov250to500</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300 CSL</span> <span class="chip">cov500 CSL</span> <span class="chip">cov1000CSL</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">14/6 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov50to50</span> <span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span> <span class="chip">cov55CSL</span> <span class="chip">cov100CSL</span> <span class="chip">cov300CSL</span> <span class="chip">cov500 CSL</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>92</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>57</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">35</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>IN</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>IN</strong> from BoltCondition (hide from UI).
+  </div></div>
+<div id="tab-SC" class="tab-panel" style="display:none">
+  <div class="card-title">Root Insurance | Personal Auto | SC State — Gap Analysis | RootInsure</div>
+  <div class="card-sub">
+    Generated: 2026-06-04 19:30 &nbsp;·&nbsp;
+    Logic: If an enum has <em>SC</em> in BoltCondition (any row), it must also have <em>SC</em>
+    in CarrierStateCondition (any row). Missing = Gap.
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Coverage field</th>
+        <th>UI / Mapped</th>
+        <th>Values shown in SC UI but missing SC carrier mapping</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+            <td class="field-name">CollDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">CompDeductible</td>
+            <td class="ui-mapped"><span class="bad">9/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">Zero</span> <span class="chip">Fifty</span> <span class="chip">TwoHunderd</span> <span class="chip">TwoThousand</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">MP</td>
+            <td class="ui-mapped"><span class="bad">11/5 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov500</span> <span class="chip">cov2500</span> <span class="chip">cov15000</span> <span class="chip">cov25000</span> <span class="chip">cov50000</span> <span class="chip">cov100000</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">TransportationExpense</td>
+            <td class="ui-mapped"><span class="bad">5/3 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov20to600</span> <span class="chip">cov30to900</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UIMList</td>
+            <td class="ui-mapped"><span class="bad">13/11 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov50to50</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+        <tr>
+            <td class="field-name">UM</td>
+            <td class="ui-mapped"><span class="bad">13/10 ✗</span></td>
+            <td class="gaps-cell"><div class="chips"><span class="chip">cov100to100</span> <span class="chip">cov300to300</span> <span class="chip">cov500to500</span></div></td>
+        </tr>
+    </tbody>
+  </table>
+  <div class="summary">
+    Total UI values: <span>95</span> &nbsp;&nbsp;
+    Carrier-mapped: <span>74</span> &nbsp;&nbsp;
+    Gaps: <span style="color:#c0392b">21</span>
+  </div>
+  <div class="note">
+    BA action: For each gap enum — add <strong>SC</strong> to CarrierStateCondition (enable carrier mapping),
+    or remove <strong>SC</strong> from BoltCondition (hide from UI).
+  </div></div>
+
+</div>
+<script>
+  function showTab(state) {
+    document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + state).style.display = 'block';
+    event.currentTarget.classList.add('active');
+  }
+</script>
+</body>
+</html>
